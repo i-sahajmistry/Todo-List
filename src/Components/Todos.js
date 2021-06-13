@@ -4,7 +4,7 @@ import {TodoItems} from './TodoItems'
 
 export default function Todos(props) {
     return (
-        <div className='w-50 mx-auto mb-5'>
+        <div className='w-50 mx-auto mb-5 mt-2'>
             <h3 className='center'>Todos List</h3>
             {
                 props.todos.length === 0 ? <p className="text-center"><i>No Todo Due!!</i></p> :

@@ -13,8 +13,6 @@ import {
 function App() {
     let initTodos;
 
-
-    
     if(localStorage.getItem("todos") === null)
         initTodos = [];
     else
