@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function AddTodo({addTodo}) {
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
-    const [toggle, setToggle] = useState(true);
+    const [toggle, setToggle] = useState(false);
 
     const submit = (e) => {
         e.preventDefault();
