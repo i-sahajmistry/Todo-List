@@ -49,11 +49,11 @@ function App() {
         <Router>
             <Header title='Todos List' nav={false} />
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/Todo-List/">
                     <AddTodo addTodo={addTodo}/>
                     <Todos todos={todos} onDelete={onDelete}/>
                 </Route>
-                <Route exact path="/about">
+                <Route exact path="/Todo-List/about">
                     <About />
                 </Route>
             </Switch>
